@@ -1,2 +1,2 @@
 # react-learning
-react学習用
+このリポジトリには、react学習で作成したコードとメモを保存します。
