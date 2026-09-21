@@ -59,21 +59,3 @@ function getObject(getObjectName) {
   console.log(getObjectName.name);
 }
 getObject(object);
-
-Q1. ArrayとObjectは何が違いますか？
-Arrayは配列、objectはプロパティ名
-
-Q2. Objectのプロパティとは何ですか？
-その値の名目。
-
-Q3. 商品Objectから価格だけを取得したい場合、Object全体を使う必要がありますか？
-不要。商品Obejectのみを使う。
-
-Q4. Objectの既存プロパティの値は変更できますか？
-できる。
-
-Q5. Objectへ後から新しい情報を追加できますか？
-できる。
-
-Q6. ArrayとObjectはどのように使い分けられそうですか？
-Arrayは似たような種類の値をパッケージ化、Objectは一つの項目の詳細。
