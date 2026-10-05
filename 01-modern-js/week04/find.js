@@ -49,18 +49,3 @@ const filterUsers = users.filter((user) => user.age >= 25);
 console.log(findUsers3);
 console.log(filterUsers);
 
-Q1. filter()とfind()の一番大きな違いは何ですか？
-filter()は条件に一致したものを全て配列に入れる。find()は条件に一致した最初の要素を返す
-
-Q2. 条件に一致する要素が3件あった場合、find()は何を返しますか？
-最初の一件目
-
-Q3. 条件に一致する要素が1つもなかった場合、find()は何を返しますか？
-undefined
-
-Q4. 次の場合、resultには何が入ると思いますか？
-50
-
-Q5. 商品一覧から「商品IDが一致する商品を1件取得したい」という場合、filter()よりfind()の方が適しているのはなぜですか？
-最初に一致した条件のものを一つだけ返すから
-
